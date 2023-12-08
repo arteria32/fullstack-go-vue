@@ -5,9 +5,6 @@ import (
 	"database/sql"
 	"fmt"
 	"log"
-
-	chapter1 "fitness.dev/app/gen"
-	_ "github.com/lib/pq"
 )
 
 func main() {
@@ -77,4 +74,8 @@ func main() {
 	for _, usr := range u {
 		fmt.Println(fmt.Sprintf("Name : %s, ID : %d", usr.Name, usr.UserID))
 	}
+}
+
+func GetAsString(s1, s2 string) {
+	panic("unimplemented")
 }

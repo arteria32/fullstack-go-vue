@@ -1,0 +1,1 @@
+[INFO] 2023/12/08 21:18 This is an info message, with colors (if the output is terminal)
